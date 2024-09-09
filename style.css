@@ -1,0 +1,38 @@
+.center {
+  text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 16px;
+  flex-direction: column;
+  gap: 16px;
+  /* background-color: gray; */
+}
+
+.row .btn {
+  padding: 24px;
+  margin: 0 3px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  border-radius: 9px;
+  cursor: pointer;
+  width: 66px;
+}
+
+.row .input{
+padding-inline: 8px 32px;
+border-radius: 8px;
+padding-block: 8px;
+margin: 10px;
+border: none;
+outline: none;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.39);
+font-size: 20px;
+
+}
